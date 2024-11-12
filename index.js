@@ -6,4 +6,4 @@ function searchBooks(){
         const titleText = book.innerTeks.tolowerCase();
         book.parentElement.style.display =titleText.includes(input) ?'block' : 'none';
     });
-}
+} 
