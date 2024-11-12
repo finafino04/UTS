@@ -7,3 +7,12 @@ function searchBooks(){
         book.parentElement.style.display =titleText.includes(input) ?'block' : 'none';
     });
 } 
+function showBookDetails(title, description) {
+    document.getElementById('modalTitle').innerText = title;
+    document.getElementById('modalDescription').innerText = description;
+    document.getElementById('bookModal').style.display = 'block';
+}
+
+function closeModal() {
+    document.getElementById('bookModal').style.display = 'none';
+}
