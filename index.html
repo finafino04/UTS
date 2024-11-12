@@ -51,9 +51,9 @@
                 </div>
                 <div class="buku-list">
                     <div class="judul-buku">
-                        <img src="jpg2.jpg"/>
+                        <img src="jpg2.jpg"onclick="showBookDetails('buku judul 2','deskripsi buku 2')"/>
                         <p>gambar 1</p>
-                        <img src="jpg 1.jpeg"/>
+                        <img src="jpg 1.jpeg"onclick="showBookDetails('buku judul 1','deskripsi buku 1')"/>
                         <p>gambar 2</p>
                     </div>
                 </div>
@@ -79,6 +79,10 @@
             </div>
         </div>
     </div>
-   
+<div id="booModal" style="display:none; position:fixed; top:50%; left:50%; transform:translate(-50%,-50%); background:white; padding:20px; border:1px solid black;"></div>
+    <h3 id="modalTitle"></h3>
+    <p id="modalDescription"></p>
+    <button onclick="closeModal()">close</button>
+</div>
 </body>
 </html>
