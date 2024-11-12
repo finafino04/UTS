@@ -120,7 +120,7 @@ p{
     width: 100%;
 }
 .buku-list{
-    width: 100%;
+    width: 50%;
     position: relative;
     display: flex;
     flex-wrap: wrap;
@@ -128,16 +128,64 @@ p{
 .judul-buku{
     width: 20%;
     margin: 0 auto;
+    display: flex;
+    align-items: center;
 }
 
-.judul-buku img{
-    width: 80%;
-    border-radius: 200%;
-}
-judul-buku p{
+
+
+.judul-buku p{
     font-family: 'comic sans ms';
     font-weight: 800;
     font-size: 25px;
     text-align: center;
     color: cadetblue ;
+}
+#contact{
+    background: #dedede;
+    padding: 50px 0px 50px 0px;
+}
+.footer{
+    width: 100;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.footer-section{
+    width: 20;
+    margin: 0 auto;
+}
+h3{
+    font-family: 'comic sans ms';
+    font-weight: 300;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color:cadetblue;
+    width: 100%;
+    line-height: 50px;
+}
+
+section{
+    display: flex;
+    align-items: center;
+}
+
+section img{
+    width: 500px;
+    height: 600px;
+    /* margin-left: 10px; */
+    padding: 20px;
+}
+
+section .buku-list img{
+    width: 200px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-section {
+    display: center;
+    text-align: center;
 }
