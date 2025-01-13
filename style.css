@@ -190,3 +190,26 @@ section .buku-list img{
     text-align: center;
 }
 
+form {
+    margin: 10px 0; 
+  }
+  
+  button {
+    background-color: #007BFF; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+  }
+  
+  button:hover {
+    background-color: #3d154e; 
+  }
+
+  button:active {
+    background-color: #c8d0da;
+  }
+  
